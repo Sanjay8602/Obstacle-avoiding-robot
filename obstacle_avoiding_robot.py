@@ -1,5 +1,5 @@
-from machine import Pin,PWM #importing PIN and PWM
-import time #importing time
+from machine import Pin,PWM 
+import time 
 import utime
 
 # Defining motor pins
@@ -18,7 +18,7 @@ echo = Pin(2, Pin.IN)
 # Defining  Servo pin and PWM object
 servoPin = Pin(15)
 servo = PWM(servoPin)
-duty_cycle = 0 # Defining and initializing duty cycle PWM
+duty_cycle = 0 
 
 # Defining frequency for servo and enable pins
 servo.freq(50)
